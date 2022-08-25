@@ -1,20 +1,21 @@
 const skipTime = (bool) => {
+  const skipButtons = document.querySelectorAll(".vjs-skip-button");
   // 引数なしなら現在の設定状況を返す
   if (bool === undefined) {
-    return Boolean(document.querySelectorAll(".vjs-skip-button").length);
+    return Boolean(skipButtons.length);
   }
 
   // 引数がfalseなら設定を解除する
   if (!bool) {
     // 該当の要素を削除
-    document.querySelectorAll(".vjs-skip-button").forEach((element) => {
+    skipButtons.forEach((element) => {
       element.remove();
     });
     return;
   }
 
   // 引数がtrueかつ設定されているなら何もしない
-  if (Boolean(document.querySelectorAll(".vjs-skip-button").length)) {
+  if (Boolean(skipButtons.length)) {
     return;
   }
 
