@@ -25,16 +25,8 @@
       </video>
       <div>
         <p>Playback time: <span id="currentTime">0</span> sec</p>
-
-        <button class="previous btn btn-secondary" onclick="previousVideo()">Previous</button>
-        <button class="next btn btn-primary" onclick="nextVideo()">Next</button>
-        <!-- <button class="btn btn-primary" onclick="play()">play</button>
-      <button class="btn btn-secondary" onclick="pause()">pause</button> -->
-        <!-- <button class="btn btn-dark" onclick="mute()">mute</button> -->
-        <!-- <button class="btn btn-light border-dark" onclick="unMute()">unmute</button> -->
-        <!-- <button class="btn btn-light border-dark" onclick="seek10s()">seek 10s</button> -->
-        <!-- <button class="btn btn-light border-dark" onclick="playback(10)">x10</button>
-      <button class="btn btn-light border-dark" onclick="playback(1)">x1</button> -->
+        <button type="button" class="btn btn-primary" onclick="mute()">muted</button>
+        <button type="button" class="btn btn-secondary" onclick="unmute()">unmuted</button>
       </div>
   </main>
 
@@ -45,7 +37,6 @@
   <script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
   <script src="modules/videojs-contrib-quality-levels/videojs-contrib-quality-levels.js"></script>
   <script src="modules/videojs-hls-quality-selector/videojs-hls-quality-selector.js"></script>
-  <script src="modules/videojs-playlist/videojs-playlist.js"></script>
   <script src="modules/videojs-vtt-thumbnails/videojs-vtt-thumbnails.js"></script>
   <script src="const/videoMetaData.js"></script>
   <script src="./index.js"></script>
