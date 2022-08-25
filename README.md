@@ -20,14 +20,26 @@
 - `controls`、`muted`、`autoplay`といった属性を指定することである程度制御できる
 - ブラウザ毎で再生できる動画形式が異なる
 
-#### Part2
+### Part2
+#### この章で話すこと
+- videojsのセットアップ
+- videojsで作成したインスタンスのメソッドを利用してみる
+- 字幕機能（標準機能）を追加
+
+### Part3
+#### この章で話すこと
+- videojsの配布されているプラグインを利用してみる
+
+### Part4
+#### この章で話すこと
+- videojsで自作のプラグインを作成する
 
 ## 参照・資材
 
 - [公式 Document](https://docs.videojs.com/)
 - [BigBuckBunny mp4](http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4)
 - [BigBuckBunny m3u8](https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8)
-- [BigBuckBunny thumbnail](https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg)
+- [BigBuckBunny poster](https://peach.blender.org/wp-content/uploads/title_anouncement.jpg)
 
 ```
 curl -O http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
