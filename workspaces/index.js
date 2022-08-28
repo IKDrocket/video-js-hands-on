@@ -21,6 +21,7 @@ const player = videojs("my-video", {
   controlBar: {
     volumePanel: { inline: false },
   },
+  // 字幕の設定
   tracks: [
     {
       src: "./captions/jp.vtt",
@@ -36,9 +37,3 @@ const player = videojs("my-video", {
     },
   ],
 });
-
-player.src("https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8");
-
-const mute = () => player.muted(true);
-
-const unmute = () => player.muted(false);
