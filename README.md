@@ -2,7 +2,7 @@
 
 ## やること
 
-- videojs の基本的な使い方
+- Videojs の基本的な使い方
 
 ## やらないこと
 
@@ -12,6 +12,28 @@
 
 ## 内容
 
+## ディレクトリ構成
+```dotnetcli
+.
+├── README.md
+├── favicon.ico
+├── samples        # 各章の完成形
+│   ├── complete       # 最終形（ハンズオンで扱っていないものも含む）
+│   ├── initialState   # 初期状態
+│   ├── part1
+│   ├── part2
+│   ├── part3
+│   └── part4
+└── workspaces     # ハンズオンで利用するディレクトリ
+    ├── captions       # 字幕関連のファイルを格納するディレクトリ
+    ├── index.html
+    ├── index.js
+    ├── modules        # Video.jsの配布されているプラグインを格納するディレクトリ
+    ├── plagins        # 自作のプラグインを格納するディレクトリ
+    └── thumbnails     # サムネイル関連のファイルを格納するディレクトリ（ハンズオンでは扱わない）
+```
+
+
 ### Part1
 
 #### この章で話すこと
@@ -19,18 +41,25 @@
 
 ### Part2
 #### この章で話すこと
-- videojsのセットアップ
-- videojsで作成したインスタンスのメソッドを利用してみる
+- Video.jsのセットアップ
+- Video.jsで作成したインスタンスのメソッドを利用してみる
 - 字幕機能（標準機能）を追加
 
 ### Part3
 #### この章で話すこと
-- videojsの配布されているプラグインを利用してみる
+- Video.jsの配布されているプラグインを利用してみる
 
 ### Part4
 #### この章で話すこと
-- videojsで自作のプラグインを作成する
+- Video.jsで自作のプラグインを作成する
 
 ## 参照・資材
 
-- [公式 Document](https://docs.videojs.com/)
+- [Video.js公式 Document](https://docs.videojs.com/)
+- [Bootstrap CSS](https://getbootstrap.jp/docs/5.0/getting-started/introduction/)
+- [Big Buck Bunny](https://peach.blender.org/)
+- [hls.js demo](https://hls-js.netlify.app/demo/)
+- [videoタグ HTML5リファレンス](http://www.htmq.com/html5/004.shtml)
+- [videoタグ MDN Web Docs](https://developer.mozilla.org/ja/docs/Web/HTML/Element/video)
+- [videojs-hls-quality-selector](https://www.npmjs.com/package/videojs-hls-quality-selector)
+- [videojs-vtt-thumbnails](https://www.npmjs.com/package/videojs-vtt-thumbnails)
